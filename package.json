@@ -1,0 +1,22 @@
+{
+  "name": "http-experiment",
+  "version": "1.0.0",
+  "description": "### Proposal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stephenoken/http-experiment.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stephenoken/http-experiment/issues"
+  },
+  "homepage": "https://github.com/stephenoken/http-experiment#readme",
+  "dependencies": {
+    "http2": "^3.3.2"
+  }
+}
