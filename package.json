@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/stephenoken/http-experiment#readme",
   "dependencies": {
-    "http2": "^3.3.2"
+    "http2": "^3.3.2",
+    "node-static": "^0.7.7"
   }
 }
