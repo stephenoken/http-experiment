@@ -19,6 +19,7 @@
   "dependencies": {
     "finalhandler": "^0.4.1",
     "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
     "http2": "^3.3.2",
     "morgan": "^1.7.0",
     "node-static": "^0.7.7"
