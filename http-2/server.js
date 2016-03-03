@@ -1,6 +1,6 @@
 'use strict';
 
-const server = require("http2");
+const server = require("http");
 const fs = require("fs");
 const path = require("path");
 const nodeStatic = require('node-static');
@@ -18,7 +18,7 @@ const options = {
 };
 const file = new nodeStatic.Server('./../public');
 
-server.createServer(options, function(request, response) {
+server.createServer(function(request, response) {
   var done = finalhandler(request, response)
   logger(request,response,(err)=>{
      if (err) return done(err);
